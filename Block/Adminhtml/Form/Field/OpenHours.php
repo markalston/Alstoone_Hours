@@ -17,9 +17,9 @@ class OpenHours extends AbstractFieldArray
      */
     protected function _prepareToRender()
     {
-        $this->addColumn('day', ['label' => __('Day'), 'class' => 'required-entry']);        
-        $this->addColumn('from_hour', ['label' => __('From'), 'class' => 'required-entry']);
-        $this->addColumn('to_hour', ['label' => __('To'), 'class' => 'required-entry']);
+        $this->addColumn('day', ['label' => __('Day (Ex: Mon)'), 'class' => 'required-entry']);        
+        $this->addColumn('from_hour', ['label' => __('From (Ex: 05:00 AM)'), 'class' => 'required-entry']);
+        $this->addColumn('to_hour', ['label' => __('To (Ex: 09:00 PM)'), 'class' => 'required-entry']);
         $this->_addAfter = false;
         $this->_addButtonLabel = __('Add');
     }
