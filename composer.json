@@ -1,0 +1,22 @@
+{
+    "name": "alstoone/module-hours",
+    "description": "Magento2 module to set store hours and holidays. Items will not be added to cart during closed hours or holidays and payment methods will also be deactivated.",
+    "type": "magento2-module",
+    "license": "",
+    "authors": [
+        {
+            "name": "markalston",
+            "email": "mark@bayouweb"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Markalston\\StoreHours\\": ""
+        }
+    }
+}
